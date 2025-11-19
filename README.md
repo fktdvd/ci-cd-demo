@@ -21,4 +21,10 @@ docker ps
 
 github token: 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
 
-repo URL: 
+repo URL:
+
+Local test runnung: 
+Run from project root: 
+```bash
+python3 -m pytest
+```
