@@ -8,4 +8,4 @@ COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
-CMD ["python", "-m", "pytest", "-q", "."]
+CMD ["python", "-m", "pytest", "-v", "."]
